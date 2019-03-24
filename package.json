@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "0.0.1",
+  "description": "Web server for FitCo recruitment process",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "fitco",
+    "web",
+    "server"
+  ],
+  "author": "serchserch",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "rc": "^1.2.8"
+  }
+}

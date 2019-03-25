@@ -2,15 +2,15 @@
 
 Create deployment
 
-`shell
+```console
 kubectl run web-server --replicas=2 --labels="run=load-balancer-example-2" --image=AWS_ECR_CONTAINER:VERSION  --port=3000
-`
+```
 
 Create service loadbalancer type:
 
-`shell
+```console
 kubectl expose deployment web-server --type=LoadBalancer --name=my-service-2
-`
+````
 
 Enviroment vars
 

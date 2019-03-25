@@ -15,9 +15,12 @@
   "author": "serchserch",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.427.0",
+    "kcors": "^2.2.2",
     "koa": "^2.7.0",
     "koa-body": "^4.1.0",
     "koa-router": "^7.4.0",
+    "mongoose": "^5.4.19",
     "rc": "^1.2.8"
   }
 }
